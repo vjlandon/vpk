@@ -51,7 +51,11 @@ var dsToggle = 'kind';
 var bootstrapModalCounter = 0;
 var documentationTabTopic = 'toc';
 
-
+// global of which compare snapshot is selected
+let compareSnapButton = 0;
+let compareSnapSelected = '';
+let compareSnap1Selected = '';
+let compareSnap2Selected = '';
 
 // objects that contain html sections that are dnynamically shown
 let svgInfo = {};            			// tool tip pop-ups
